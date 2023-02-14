@@ -1,3 +1,4 @@
+package src;
 import javax.swing.JPanel;
 import java.awt.*;
 import java.awt.geom.*;
@@ -11,8 +12,8 @@ public class Cat {
 	private static final int EYE_X = HEAD_DIMENSION/4;
 	private static final int EYE_SEPARATION = HEAD_DIMENSION/3;
 	// pick eye dimensions
-	private static final int EYE_HEIGHT = 20;
-	private static final int EYE_WIDTH = 10;
+	private static final int EYE_HEIGHT = 200;
+	private static final int EYE_WIDTH = 100;
 	// pick mouth height, width is based on head dimension
 	private static final int MOUTH_HEIGHT = 100;
 	private static final int MOUTH_WIDTH = HEAD_DIMENSION/4;
