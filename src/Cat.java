@@ -1,4 +1,3 @@
-package src;
 import javax.swing.JPanel;
 import java.awt.*;
 import java.awt.geom.*;
@@ -28,7 +27,7 @@ public class Cat {
 		int x=catX;
 		int y=catY;
 		// Draw the head
-		g2.setColor(Color.black);
+		g2.setColor(Color.pink); //Changed the color of the cat to pink
 		g2.fillOval(x, y, HEAD_DIMENSION, HEAD_DIMENSION);
 		// Draw the eyes
 		g2.setColor(Color.green);
